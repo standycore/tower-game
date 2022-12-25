@@ -2,7 +2,7 @@ import { FixedEngine } from '$lib/engine';
 import { GroupMap } from '$lib/groupMap';
 import Root from '$src/ui/Root';
 import { Layer, Stage } from '@pixi/layers';
-import { Application, Sprite } from 'pixi.js';
+import { Application } from 'pixi.js';
 import ReactDOM from 'react-dom/client';
 
 import { load, preUpdate, update } from '$src/game';
