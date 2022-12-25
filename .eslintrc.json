@@ -4,10 +4,10 @@
         "es2021": true
     },
     "extends": [
-        "standard"
+        "standard",
         // react plugins - both required if using react
-        // "plugin:react/recommended",
-        // "plugin:react/jsx-runtime"
+        "plugin:react/recommended",
+        "plugin:react/jsx-runtime"
     ],
     "overrides": [
     ],
