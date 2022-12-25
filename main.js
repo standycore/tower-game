@@ -44,6 +44,7 @@ async function main() {
 
     Global.engine = engine;
     Global.app = app;
+    Global.groupMap = groupMap;
 
     await load();
 

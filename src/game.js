@@ -15,7 +15,7 @@ async function preUpdate() {
 
     const sprite = Sprite.from('https://picsum.photos/200');
 
-    app.stage.addChild(sprite);
+    stage.addChild(sprite);
 
     sprite.position.x += 1;
 
